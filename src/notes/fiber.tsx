@@ -12,8 +12,11 @@ const Fiber = () => {
           The reason it can support so many targets is because React is designed
           so that reconciliation and rendering are separate phases. The
           reconciler does the work of computing which parts of a tree have
-          changed; the renderer then uses that information to actually update
-          the rendered app.
+          changed;{" "}
+          <span style={{ backgroundColor: "#dae2f0" }}>
+            the renderer then uses that information to actually update the
+            rendered app.
+          </span>
         </p>
         <p dir="auto">
           This separation means that React DOM and React Native can use their

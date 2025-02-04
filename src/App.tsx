@@ -14,6 +14,7 @@ function App() {
         border: "1px solid #ccc",
         borderRadius: "5px",
         padding: "15px",
+        lineHeight: "1.5",
       }}
     >
       {/* <DocTitle /> */}
