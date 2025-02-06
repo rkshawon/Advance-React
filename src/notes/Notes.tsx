@@ -1,4 +1,4 @@
-const Fiber = () => {
+const Notes = () => {
   return (
     <div>
       <div dir="auto">
@@ -29,8 +29,19 @@ const Fiber = () => {
           take advantage of) the new architecture.
         </p>
       </div>
+      <div>
+        <h3 dir="auto">
+          Why do we need two functions while creating HOC component
+        </h3>
+        <p>
+          In a Higher-Order Component (HOC), we return a function from another
+          function. This is necessary because the outer function is responsible
+          for receiving the original component, while the inner function is
+          responsible for handling props and rendering logic.
+        </p>
+      </div>
     </div>
   );
 };
 
-export default Fiber;
+export default Notes;
