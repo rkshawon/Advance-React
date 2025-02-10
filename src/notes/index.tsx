@@ -1,5 +1,6 @@
 import Notes from "./Notes";
 import HOC from "./hoc";
+import Renderprops from "./renderprops";
 
 const Feature = () => {
   const AuthCheck = HOC(Notes);
@@ -7,6 +8,11 @@ const Feature = () => {
     <div>
       <Notes />
       <AuthCheck />
+      <Renderprops
+        render={(isOn) => {
+          return isOn ? <div>Render is On</div> : <div>Render is Off</div>;
+        }}
+      />
     </div>
   );
 };
