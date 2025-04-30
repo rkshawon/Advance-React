@@ -1,6 +1,7 @@
 import "./App.css";
+import Cookie from "./cookie";
 // import DocTitle from "./components/custome-hook";
-import Notes from "./notes";
+// import Notes from "./notes";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       }}
     >
       {/* <DocTitle /> */}
-      <Notes />
+      {/* <Notes /> */}
+      <Cookie />
     </div>
   );
 }
